@@ -1,0 +1,12 @@
+build:
+  version: "1.0.0"
+
+cards:
+  message: "welcome to cards applications qa"
+  contactDetails:
+    name: "Prashant Pal qa"
+    mobileNumber: "7310547955 qa"
+    email: "palprashant18970@gmail.com qa"
+  onCallSupport:
+    - "8979296780 qa"
+    - "9997865023 qa"

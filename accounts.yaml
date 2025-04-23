@@ -1,0 +1,33 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: accounts
+  datasource:
+    url: jdbc:postgresql://localhost:5432/microservices_latest
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+build:
+  version: "1.0.0"
+
+accounts:
+  message: "welcome to account microservices"
+  contactDetails:
+    name: "Prashant Pal"
+    mobileNumber: "7310547955"
+    emal: "palprashant18970@gmail.com"
+  onCallSupport:
+    - "9997865023"
+    - "8979296780"
+
+
+
+
+
+
+

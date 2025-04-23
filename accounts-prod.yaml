@@ -1,0 +1,27 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: accounts
+  datasource:
+    url: jdbc:postgresql://host.docker.internal:5432/postgres
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+
+build:
+  version: "4.0.0"
+
+accounts:
+  message: "welcome to account prod microservices"
+  contactDetails:
+    name: "Prashant Pal prod"
+    mobileNumber: "7310547955 prod"
+    emal: "palprashant18970@gmail.com prod"
+  onCallSupport:
+    - "9997865023 prod"
+    - "8979296780 prod"

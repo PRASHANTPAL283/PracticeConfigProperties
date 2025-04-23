@@ -1,0 +1,12 @@
+build:
+  version: "9.0.0"
+
+accounts:
+  message: "welcome to account microservices qa"
+  contactDetails:
+    name: "Prashant Pal qa"
+    mobileNumber: "7310547955 qa"
+    emal: "palprashant18970@gmail.com qa"
+  onCallSupport:
+    - "9997865023 qa"
+    - "8979296780 qa"

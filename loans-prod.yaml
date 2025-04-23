@@ -1,0 +1,27 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: loans
+  datasource:
+    url: jdbc:postgresql://host.docker.internal:5432/postgres
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+
+build:
+  version: "1.9.3"
+
+loans:
+  message: "welcome to loans applications prod"
+  contactDetails:
+    name: "Prashant Pal prod"
+    email: "palprashant18970@gmail.com prod"
+    mobileNumber: "7310547955 prod"
+  onCallSupport:
+    - "8979296780 prod"
+    - "9667977871 prod"

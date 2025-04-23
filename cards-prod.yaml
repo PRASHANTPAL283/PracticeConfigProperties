@@ -1,0 +1,26 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: cards
+  datasource:
+    url: jdbc:postgresql://host.docker.internal:5432/postgres
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+build:
+  version: "1.0.0"
+
+cards:
+  message: "welcome to cards applications prod"
+  contactDetails:
+    name: "Prashant Pal prod"
+    mobileNumber: "7310547955 prod"
+    email: "palprashant18970@gmail.com prod"
+  onCallSupport:
+    - "8979296780 prod"
+    - "9997865023 prod"
