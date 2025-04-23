@@ -21,7 +21,7 @@ accounts:
   contactDetails:
     name: "Prashant Pal prod"
     mobileNumber: "7310547955 prod"
-    emal: "palprashant18970@gmail.com prod"
+    emal: "{cipher}d9ef5cf938b959a081965382a754ebaf280aeabdfdb6e76ecfaf8df7cb12c16c2e89af1e72fa6a4134e04b2b5b658f89"
   onCallSupport:
     - "9997865023 prod"
     - "8979296780 prod"
