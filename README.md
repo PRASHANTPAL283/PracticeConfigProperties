@@ -1,0 +1,2 @@
+# PracticeConfigProperties
+practice config properties
