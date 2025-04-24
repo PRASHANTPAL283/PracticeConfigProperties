@@ -16,7 +16,7 @@ build:
   version: "1.0.0"
 
 cards:
-  message: "welcome yes webhooks spring cloud config monitor is working to for testing rabbit amqp refresh spring cloud bus cards applications prod"
+  message: "welcome 123 yes webhooks spring cloud config monitor is working to for testing rabbit amqp refresh spring cloud bus cards applications prod"
   contactDetails:
     name: "Prashant Pal prod"
     mobileNumber: "7310547955 prod"
