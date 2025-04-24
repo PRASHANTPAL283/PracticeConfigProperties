@@ -16,7 +16,7 @@ build:
   version: "1.0.0"
 
 cards:
-  message: "welcome to cards applications prod"
+  message: "welcome to for testing rabbit amqp refresh spring cloud bus cards applications prod"
   contactDetails:
     name: "Prashant Pal prod"
     mobileNumber: "7310547955 prod"
