@@ -17,7 +17,7 @@ build:
   version: "4.0.0"
 
 accounts:
-  message: "welcome to account prod microservices"
+  message: "welcome to accounts testing management endpoints exposure eweb  prod microservices"
   contactDetails:
     name: "Prashant Pal prod"
     mobileNumber: "7310547955 prod"
