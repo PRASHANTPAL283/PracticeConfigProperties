@@ -1,5 +1,7 @@
 build:
   version: "1.90.3"
+server:
+  port: 8082
 
 loans:
   message: "welcome yes web hoooks spring cloud config monitor is working to loans applications qa"
