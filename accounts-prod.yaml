@@ -17,7 +17,7 @@ build:
   version: "4.0.0"
 
 accounts:
-  message: "welcome to accounts testing management endpoints again changes for rabbit mqsd 12345 exposure eweb  prod microservices"
+  message: "welcome to accounts yes web hook spring cloud config monitor working testing management endpoints again changes for rabbit mqsd 12345 exposure eweb  prod microservices"
   contactDetails:
     name: "Prashant Pal prod"
     mobileNumber: "7310547955 prod"

@@ -2,7 +2,7 @@ build:
   version: "1.90.3"
 
 loans:
-  message: "welcome to loans applications qa"
+  message: "welcome yes web hoooks spring cloud config monitor is working to loans applications qa"
   contactDetails:
     name: "Prashant Pal qa"
     email: "palprashant18970@gmail.com qa"
