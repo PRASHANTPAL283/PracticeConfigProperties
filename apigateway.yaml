@@ -1,0 +1,36 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: "http://localhost:8761/eureka/"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
+  
+
+  health:
+    readinessstate:
+      enabled: true
+    livenessstate:
+      enabled: true
+
+
+  info:
+    env:
+      enabled: true
+
+
+server:
+  port: 9091
+info:
+  app:
+    name: "eureka server"
+    description: "eureka server"
+    version: "1.0.9"
